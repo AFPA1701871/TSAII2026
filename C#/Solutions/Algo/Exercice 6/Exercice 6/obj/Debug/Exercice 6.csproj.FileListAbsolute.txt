@@ -1,0 +1,15 @@
+C:\Users\1701871\OneDrive - AFPA\Documents\Mes Cours\03 - Algorithmie\Solutions en c#\Exercice 6\Exercice 6\bin\Debug\Exercice 6.exe.config
+C:\Users\1701871\OneDrive - AFPA\Documents\Mes Cours\03 - Algorithmie\Solutions en c#\Exercice 6\Exercice 6\bin\Debug\Exercice 6.exe
+C:\Users\1701871\OneDrive - AFPA\Documents\Mes Cours\03 - Algorithmie\Solutions en c#\Exercice 6\Exercice 6\bin\Debug\Exercice 6.pdb
+C:\Users\1701871\OneDrive - AFPA\Documents\Mes Cours\03 - Algorithmie\Solutions en c#\Exercice 6\Exercice 6\obj\Debug\Exercice 6.csproj.AssemblyReference.cache
+C:\Users\1701871\OneDrive - AFPA\Documents\Mes Cours\03 - Algorithmie\Solutions en c#\Exercice 6\Exercice 6\obj\Debug\Exercice 6.csproj.SuggestedBindingRedirects.cache
+C:\Users\1701871\OneDrive - AFPA\Documents\Mes Cours\03 - Algorithmie\Solutions en c#\Exercice 6\Exercice 6\obj\Debug\Exercice 6.csproj.CoreCompileInputs.cache
+C:\Users\1701871\OneDrive - AFPA\Documents\Mes Cours\03 - Algorithmie\Solutions en c#\Exercice 6\Exercice 6\obj\Debug\Exercice 6.exe
+C:\Users\1701871\OneDrive - AFPA\Documents\Mes Cours\03 - Algorithmie\Solutions en c#\Exercice 6\Exercice 6\obj\Debug\Exercice 6.pdb
+Z:\Informatique\Algorithmie\Solutions\Exercice 6\Exercice 6\obj\Debug\Exercice 6.csproj.AssemblyReference.cache
+Z:\Informatique\Algorithmie\Solutions\Exercice 6\Exercice 6\obj\Debug\Exercice 6.csproj.CoreCompileInputs.cache
+Z:\Informatique\Algorithmie\Solutions\Exercice 6\Exercice 6\obj\Debug\Exercice 6.exe
+Z:\Informatique\Algorithmie\Solutions\Exercice 6\Exercice 6\obj\Debug\Exercice 6.pdb
+Z:\Informatique\Algorithmie\Solutions\Exercice 6\Exercice 6\bin\Debug\Exercice 6.exe.config
+Z:\Informatique\Algorithmie\Solutions\Exercice 6\Exercice 6\bin\Debug\Exercice 6.exe
+Z:\Informatique\Algorithmie\Solutions\Exercice 6\Exercice 6\bin\Debug\Exercice 6.pdb

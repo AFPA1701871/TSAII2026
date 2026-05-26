@@ -1,0 +1,15 @@
+Y:\Informatique\Algorithmie\Solutions\Exercice2\Exercice2\bin\Debug\Exercice2.exe.config
+Y:\Informatique\Algorithmie\Solutions\Exercice2\Exercice2\bin\Debug\Exercice2.exe
+Y:\Informatique\Algorithmie\Solutions\Exercice2\Exercice2\bin\Debug\Exercice2.pdb
+Y:\Informatique\Algorithmie\Solutions\Exercice2\Exercice2\obj\Debug\Exercice2.csproj.AssemblyReference.cache
+Y:\Informatique\Algorithmie\Solutions\Exercice2\Exercice2\obj\Debug\Exercice2.csproj.SuggestedBindingRedirects.cache
+Y:\Informatique\Algorithmie\Solutions\Exercice2\Exercice2\obj\Debug\Exercice2.csproj.CoreCompileInputs.cache
+Y:\Informatique\Algorithmie\Solutions\Exercice2\Exercice2\obj\Debug\Exercice2.exe
+Y:\Informatique\Algorithmie\Solutions\Exercice2\Exercice2\obj\Debug\Exercice2.pdb
+Z:\Informatique\Algorithmie\Solutions\Exercice2\Exercice2\bin\Debug\Exercice2.exe.config
+Z:\Informatique\Algorithmie\Solutions\Exercice2\Exercice2\bin\Debug\Exercice2.exe
+Z:\Informatique\Algorithmie\Solutions\Exercice2\Exercice2\bin\Debug\Exercice2.pdb
+Z:\Informatique\Algorithmie\Solutions\Exercice2\Exercice2\obj\Debug\Exercice2.csproj.AssemblyReference.cache
+Z:\Informatique\Algorithmie\Solutions\Exercice2\Exercice2\obj\Debug\Exercice2.csproj.CoreCompileInputs.cache
+Z:\Informatique\Algorithmie\Solutions\Exercice2\Exercice2\obj\Debug\Exercice2.exe
+Z:\Informatique\Algorithmie\Solutions\Exercice2\Exercice2\obj\Debug\Exercice2.pdb
