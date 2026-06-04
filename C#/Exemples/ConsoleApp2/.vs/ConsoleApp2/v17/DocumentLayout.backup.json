@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Martine\\source\\repos\\ConsoleApp2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E03AB3A3-4864-498F-863A-B7866862C821}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\martine\\source\\repos\\consoleapp2\\consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E03AB3A3-4864-498F-863A-B7866862C821}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E03AB3A3-4864-498F-863A-B7866862C821}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\martine\\source\\repos\\consoleapp2\\consoleapp2\\personne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E03AB3A3-4864-498F-863A-B7866862C821}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\personne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E03AB3A3-4864-498F-863A-B7866862C821}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\martine\\source\\repos\\consoleapp2\\consoleapp2\\voiture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E03AB3A3-4864-498F-863A-B7866862C821}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\voiture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Voiture.cs",
+              "DocumentMoniker": "C:\\Users\\Martine\\source\\repos\\ConsoleApp2\\ConsoleApp2\\Voiture.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Voiture.cs",
+              "ToolTip": "C:\\Users\\Martine\\source\\repos\\ConsoleApp2\\ConsoleApp2\\Voiture.cs",
+              "RelativeToolTip": "ConsoleApp2\\Voiture.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T07:51:50.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Martine\\source\\repos\\ConsoleApp2\\ConsoleApp2\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Program.cs",
+              "ToolTip": "C:\\Users\\Martine\\source\\repos\\ConsoleApp2\\ConsoleApp2\\Program.cs",
+              "RelativeToolTip": "ConsoleApp2\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T07:35:34.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Personne.cs",
+              "DocumentMoniker": "C:\\Users\\Martine\\source\\repos\\ConsoleApp2\\ConsoleApp2\\Personne.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Personne.cs",
+              "ToolTip": "C:\\Users\\Martine\\source\\repos\\ConsoleApp2\\ConsoleApp2\\Personne.cs",
+              "RelativeToolTip": "ConsoleApp2\\Personne.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwCUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T07:36:19.569Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
