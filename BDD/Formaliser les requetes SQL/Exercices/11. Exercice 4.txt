@@ -1,0 +1,2 @@
+A) Créer une vue entre epreuves, etudiants, matieres et avoir_note
+B) Refaire les requêtes D, N de l'exercice 3

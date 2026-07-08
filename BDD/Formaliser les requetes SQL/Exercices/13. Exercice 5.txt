@@ -1,0 +1,8 @@
+A) Editer la liste des etudiants et leurs notes 
+B) Editer la liste des etudiants et leurs notes à l'épreuve 4. Que remarquez vous?
+C)Editer la liste de tous les étudiant et leurs notes par épreuve. Le résultat sera trier par épreuve et par nom d'étudiant
+D)Editer la liste de toutes les epreuves et les notes obtenues par les étudiants. Le résultat sera trier par épreuve et par nom d'étudiant.
+Le résultat est-il le même que précedemment? pourquoi?
+E) Créer une vue effectuant des liaisons gauche entre etudiants, avoir_note et epreuves et refaire la question C
+F) Editer la liste des modules avec leurs matières et leurs epreuves 
+G) Remplacer les left join par des inner join, que remarquez vous?
