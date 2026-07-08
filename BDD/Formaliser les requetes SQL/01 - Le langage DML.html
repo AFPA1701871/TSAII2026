@@ -1,0 +1,74 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title></title><link rel="stylesheet" href="/css/highlight/monokai-sublime.css"><link rel="stylesheet" href="/css/highlight/sunburst.css"><link rel="stylesheet" href="/css/markdown.css"><link rel="stylesheet" href="/css/menu-markdown.css"><script src="/js/highlight.js"></script><script src="/js/jquery.js"></script></head><body class="markdown-body"><div class="markdown-body"><h1 id="le-langage-dml-mise-jour-des-donn-es">LE LANGAGE DML: Mise à jour des données</h1>
+<p> 
+Pour modifier les données d&#39;une base, l&#39;utilisateur dispose de 3 ordres SQL :</p>
+<ul>
+<li>INSERT</li>
+<li>UPDATE</li>
+<li>DELETE</li>
+</ul>
+<h2 id="insert">INSERT</h2>
+<p>L&#39;ajout de lignes dans une table (ou une vue) répond à la syntaxe suivante :</p>
+<pre><code>INSERT INTO NOM_DE_TABLE (NOMS DE COLONNES)
+VALUES (LISTE DE VALEURS)
+</code></pre><p>Le mode principal dans l&#39;ordre <code>INSERT</code> pour ajouter des lignes est l&#39;insertion directe avec la clause VALUES</p>
+<p>L&#39;attribution de valeurs est faite aux colonnes.</p>
+<p>Exemples:</p>
+<pre><code>EMPLOYES et DEPART de structure
+EMPLOYES (NOEMP, NOM, PRENOM, DEPT, SALAIRE)
+DEPART (NODEPT, NOMDEPT)
+</code></pre><p>Insérer l&#39;employé 00140, de nom REEVES, de prénom HUBERT dans le département A00, de salaire 2100€ </p>
+<pre><code>INSERT INTO EMPLOYES (NOEMP, NOM, PRENOM, DEPT, SALAIRE)
+VALUES (00140,&#39;REEVES&#39;,&#39;HUBERT&#39;,&#39;A00&#39;,2100)
+</code></pre><p>On donne une valeur pour chacun des attributs spécifiés dans l&#39;ordre <code>INSERT</code> ; les valeurs de la clause VALUES doivent correspondre avec la liste des colonnes , les attributs non spécifiés prennent la valeur NULL.</p>
+<p>Insérer l&#39;employé 00140, de nom REEVES, de prénom HUBERT dans le département A00</p>
+<pre><code>INSERT INTO EMPLOYES (NOEMP, NOM, PRENOM, DEPT)
+VALUES (00140,&#39;REEVES&#39;,&#39;HUBERT&#39;,&#39;A00&#39;)
+</code></pre><p>La colonne Salaire prendra la valeur NULL pour cette ligne.
+Si cette colonne n&#39;a pas été spécifiée comme pouvant être nulle, une erreur sera générée.
+La liste des colonnes peut être omise à condition que l&#39;ordre d&#39;insertion concerne toutes les colonnes de la table.</p>
+<p>Nous pouvons insérer plusieurs lignes dans la table</p>
+<pre><code>INSERT INTO EMPLOYES (NOEMP, NOM, PRENOM, DEPT, SALAIRE)
+VALUES (00140,&#39;REEVES&#39;,&#39;HUBERT&#39;,&#39;A00&#39;, 2100), (00150,&#39;JACQUARD&#39;,&#39;ALBERT&#39;,&#39;B00&#39;, 1800)
+</code></pre><p> 
+Une colonne ayant une propriété AUTO_INCREMENT peux faire partie de la liste des colonnes, dans ce cas, vous spécifier vous-même la valeur.
+Si vous ne spécifiez pas la colonne, AUTO_INCREMENT fait son travail et un nouveau numéro est inséré.
+ </p>
+<h2 id="update">UPDATE</h2>
+<p>L&#39;ordre UPDATE est utilisé pour modifier des lignes de tables existantes et est composé de trois clauses :</p>
+<pre><code>UPDATE &lt;NOM DE TABLE&gt;
+SET &lt;NOM COLONNE 1&gt; = &lt;VALEUR 1&gt; [,… &lt;NOM COLONNE n&gt; = &lt;VALEUR n&gt;]
+WHERE &lt;condition&gt;
+</code></pre><ul>
+<li>SET  Nom des colonnes et leurs valeurs ou expressions mises à jour.</li>
+<li>WHERE Critère de sélection pour la mise à jour d&#39;une ligne (optionnel)</li>
+</ul>
+<p>Si la clause WHERE n&#39;est pas codée, la table entière sera mise à jour.</p>
+<p>Exemple 1: Augmenter le salaire de 20% de tous les employés </p>
+<pre><code>UPDATE EMPLOYES
+SET SALAIRE = SALAIRE * 1,2
+</code></pre><p>Exemple 2: Augmenter le salaire de 20% de l&#39;employé de matricule 00040.</p>
+<pre><code>UPDATE EMPLOYES
+SET SALAIRE = SALAIRE * 1,2
+WHERE NOEMP = 00040
+</code></pre><p>Exemple 3: Modifier le salaire (augmentation de 20%) de l&#39;employé de matricule 00040, et son affectation dans le service A40</p>
+<pre><code>UPDATE EMPLOYES
+SET SALAIRE = SALAIRE * 1,2, DEPT= &#39;A40&#39;
+WHERE NOEMP = 00040
+</code></pre><p> </p>
+<h2 id="delete">DELETE</h2>
+<p>L&#39;ordre DELETE utilise trois clauses pour supprimer une ou plusieurs lignes d&#39;une table.</p>
+<pre><code>DELETE [FROM] &lt;NOM DE TABLE&gt;
+FROM &lt;NOM DE TABLE&gt; [, … &lt;NOM DE TABLE n&gt;]
+WHERE &lt;PREDICAT&gt;
+</code></pre><ul>
+<li>FROM Spécifie le nom de la table ou les lignes seront supprimées</li>
+<li>FROM Une 2eme clause FROM pour spécifier le nom d&#39;autres tables utilisées pour fournir des critères</li>
+<li>WHERE  Spécifie le critère de sélection (optionnel)</li>
+</ul>
+<p>Si la clause WHERE n&#39;est pas codée, toutes les lignes seront supprimées.</p>
+<p>Exemple 1: Supprimer tous les employés de la table EMPLOYES </p>
+<pre><code>DELETE FROM EMPLOYES
+</code></pre><p>Exemple 2: Supprimer les employés du département &#39;E21&#39;</p>
+<pre><code>DELETE FROM EMPLOYES
+WHERE WDEPT =&#39;E21&#39;
+</code></pre></div><div class="menu-markdown"><img src="/images/menu.png"></div></body></html><script>hljs.initHighlightingOnLoad();</script><script src="/js/menu-markdown.js"></script>
