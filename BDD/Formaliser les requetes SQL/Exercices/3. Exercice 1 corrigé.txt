@@ -1,0 +1,40 @@
+Ecrivez des requêtes SELECT (A chaquefois ,vous stockerez la requete dans un fichier texte» pour
+a. Affichez la totalité de la table « client ».
+	Select * from clients
+b. Affichez les noms de tous les clients.
+	Select nomClient, prenomClient from clients
+c. Affichez les différentes dates de commandes sans répétition.
+	Select distinct dateCommande from commandes
+d. Affichez les clients qui se prénomment « sophie ».
+	Select nomClient, prenomClient from clients where prenomClient ='Sophie'
+e. Affichez les numéros des articles et leur quantité commandés par le client 2.
+	SELECT `idArticle`,`quantiteCommande` FROM `commandes` where `idClient`=2
+f. Affichez les noms des clients en majuscules.
+	Select UCASE(nomClient) from clients
+g. Affichez les noms des clients avec la première lettre en majuscule.
+	SELECT CONCAT(UCASE(LEFT(`nomClient`,1)),LOWER(RIGHT(`nomClient`,LENGTH(`nomClient`)-1))) as nom FROM `clients`
+	SELECT CONCAT(UCASE( LEFT(`nomClient`,1)),LOWER(SUBSTRING(`nomClient`,2))) FROM `clients`
+h. Affichez les noms des clients qui ont 5caractères.
+	Select nomClient, prenomClient from clients where LENGTH(nomClient) = 5
+i. Affichez les noms des clients qui commencent par « t » ou qui ont un « l » en troisième position.
+	SELECT `nomClient`  FROM `clients` where `nomClient` like 't%' or `nomClient` like '__l%'
+	SELECT `nomClient`  FROM `clients` where substring(`nomClient`,1,1)='t' or substring(`nomClient`,3,1)='l'
+j. Affichez le numéro de client, le numéro de commande, la date de commande et la date de paiement
+attendue des commandes (=date_cde+15jours).
+	SELECT `idClient`,`idCommande`,`dateCommande`,ADDDATE(`dateCommande`,15) as `Date de paiement` FROM `commandes`
+	SELECT `idClient`,`idCommande`,`dateCommande`, DATE_ADD(`dateCommande`,interval 15 day) FROM `commandes`
+k. Affichez la date et l''heure actuelles.
+	Select now()
+l. Affichez l''ancienneté des clients.
+	SELECT `nomClient`,datediff(now(),`dateEntreeClient`) as anciennete FROM `clients`
+	SELECT `nomClient`,ROUND(DATEDIFF(now(),`dateEntreeClient`)/365) as anciennete FROM `clients`
+m. Affichez la quantité maximale achetée par un client.
+	SELECT `idClient`, max(`quantiteCommande`) as `max qté commandée` FROM `commandes` group by `idClient`
+n. Affichez la quantité totale achetée par le client 2.
+	SELECT sum(`quantiteCommande`) FROM `commandes` where `idClient`=2
+o. Affichez la quantité moyenne achetée par le client 2.
+	SELECT avg(`quantiteCommande`) FROM `commandes` where `idClient`=2
+p. Affichez les clients classés par ordre alphabétique de leur nom.
+	SELECT `nomClient`,`prenomClient` FROM `clients` ORDER by `nomClient`,`prenomClient`
+q. Affichez les articles classés selon leur prix décroissant. 
+	SELECT `descriptionArticle`,`prixArticle` FROM `articles` order by `prixArticle` desc
